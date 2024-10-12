@@ -1,0 +1,65 @@
+- !<ObjectPrefab/9ecde835-8a07-4251-808c-a2a88734d32b>
+  PackagePath: ""
+  objects:
+    - !<own> b2274f93-cec1-42f9-8bd8-685976440e06
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/4b35f20c-1922-4217-8c0d-41969996fe6f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 60c11cd3-7638-43a7-be73-89a0112e765b
+  Mesh: !<reference> 9501feee-2a96-40d8-b82b-6cea21a04f07
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/8678a24f-e77a-409b-8982-5e4ee271a4f4>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+    FitVisual: true
+    Radius: 6.000000
+  Matter: !<reference> 7b820401-88d7-4dcc-8998-2f633cb96593
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 5.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/b2274f93-cec1-42f9-8bd8-685976440e06>
+  PrefabRemaps:
+    []
+  Name: Yellow Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 1805.283813, y: -2087.851562, z: 1129.535889}
+    rotation: {x: 114.088989, y: -19.708084, z: -146.494400}
+    scale: {x: 50.000019, y: 50.000000, z: 50.000015}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4b35f20c-1922-4217-8c0d-41969996fe6f
+    - !<own> 8678a24f-e77a-409b-8982-5e4ee271a4f4
