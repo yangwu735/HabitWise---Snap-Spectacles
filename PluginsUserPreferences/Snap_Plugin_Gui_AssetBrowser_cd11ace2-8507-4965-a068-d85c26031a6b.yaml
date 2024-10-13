@@ -1,26 +1,54 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 336
+    size: 377
     values:
       - Base.png
-      - Behavior.js
+      - Capsule.mesh
       - Device Camera Texture.deviceCameraTexture
       - Echopark.hdr
       - Echopark.hdr/Diffuse
       - Echopark.hdr/Specular
-      - Generate.ts
+      - Kitty
+      - Kitty/Kitty__ADD_TO_SCENE.prefab
+      - Kitty/Resources
+      - Kitty/Resources/3D Objects
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/.hidden
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/.hidden/blinn1
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/.hidden/white
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/BaseLayer
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Kitty_NoLayer
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Materials
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Materials/blinn1
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Meshes
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Meshes/collar_lo
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Meshes/polySurface1
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Meshes/polySurface2
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Meshes/polySurface3
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Meshes/polySurface4
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Meshes/polySurface5
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Meshes/polySurface6
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Meshes/polySurface7
+      - Kitty/Resources/3D Objects/Kitty_NoLayer.fbx/Meshes/tag_lo
+      - Kitty/Resources/Materials
+      - Kitty/Resources/Materials/cat_pbr.mat
+      - Kitty/Resources/Shader
+      - Kitty/Resources/Shader/cat_pbr.ss_graph
+      - Kitty/Resources/Textures
+      - Kitty/Resources/Textures/cat_base_02.pvr
+      - Kitty/Resources/Textures/cat_normal_02.pvr
+      - Kitty/Resources/Textures/cat_param_02.pvr
       - MaterialParams.png
       - Normal.png
+      - PBR.mat
       - Render Target.renderTarget
       - Scene.scene
       - SpectaclesInteractionKit
-      - SpectaclesInteractionKit/Assets
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerEndAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerStartAudioTrack.wav
-      - SpectaclesInteractionKit/Assets/Materials
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/PaintedGlow_Left.mat
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/PaintedGlow_Right.mat
@@ -30,19 +58,10 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Materials/ContainerImageMaterial.mat
       - SpectaclesInteractionKit/Assets/Materials/LogoMaterial.mat
       - SpectaclesInteractionKit/Assets/Materials/NormalBasedTargetOutline.mat
-      - SpectaclesInteractionKit/Assets/Materials/PinchButtonDarkInactive.mat
-      - SpectaclesInteractionKit/Assets/Materials/PinchButtonDarkRadial.mat
-      - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOffIcon.mat
-      - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnDefault.mat
-      - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnIcon.mat
-      - SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnSelect.mat
       - SpectaclesInteractionKit/Assets/Materials/ScaleBasedTargetOutline.mat
       - SpectaclesInteractionKit/Assets/Materials/ScrollBarButton.mat
       - SpectaclesInteractionKit/Assets/Materials/ScrollBarSlider.mat
       - SpectaclesInteractionKit/Assets/Materials/SimplePBRMaterial.mat
-      - SpectaclesInteractionKit/Assets/Materials/SliderMat
-      - SpectaclesInteractionKit/Assets/Materials/SliderMat/PinchButtonDarkDefault.mat
-      - SpectaclesInteractionKit/Assets/Materials/SliderMat/PinchButtonOnSelect.mat
       - SpectaclesInteractionKit/Assets/Materials/SliderMat/SliderMat.mat
       - SpectaclesInteractionKit/Assets/Materials/SliderMat/TargetOutlineMaterial.mat
       - SpectaclesInteractionKit/Assets/Materials/SpritePreset.mat
@@ -62,19 +81,15 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Meshes/SnapGhost_Mesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/SphereMesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/Uncheck.mesh
-      - SpectaclesInteractionKit/Assets/Shaders
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/PaintedGlow_Left.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/PaintedGlow_Right.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/RadialGradientOcclusion.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/TipGlowMaterial.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/NormalBasedTargetOutline.ss_graph
-      - SpectaclesInteractionKit/Assets/Shaders/PinchButton-ActiveOrInActive.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/PinchDarkRadial.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/ScaleBasedTargetOutline.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/ScrollBarSlider.ss_graph
-      - SpectaclesInteractionKit/Assets/Shaders/SliderShaders
-      - SpectaclesInteractionKit/Assets/Shaders/SliderShaders/PinchButton-Default.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/SliderShaders/Slider.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/SpritePreset.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/TargetOutline.ss_graph
@@ -97,7 +112,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Textures/SIKContainerExampleImage.jpg
       - SpectaclesInteractionKit/Assets/Textures/SIKLogo.png
       - SpectaclesInteractionKit/Assets/Textures/ScrollBarRectangle.png
-      - SpectaclesInteractionKit/Components
       - SpectaclesInteractionKit/Components/Helpers
       - SpectaclesInteractionKit/Components/Helpers/CapsuleMeshCustomizer.ts
       - SpectaclesInteractionKit/Components/Helpers/InteractableAudioFeedback.ts
@@ -114,6 +128,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Interaction/Billboard/BillboardRotationCalculator.ts
       - SpectaclesInteractionKit/Components/Interaction/HandVisual
       - SpectaclesInteractionKit/Components/Interaction/HandVisual/GlowEffectView.ts
+      - SpectaclesInteractionKit/Components/Interaction/HandVisual/GlowEffectViewModel.ts
       - SpectaclesInteractionKit/Components/Interaction/HandVisual/HandVisual.ts
       - SpectaclesInteractionKit/Components/Interaction/HandVisual/RadialOcclusionView.ts
       - SpectaclesInteractionKit/Components/Interaction/Headlock
@@ -177,18 +192,14 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/reflection-map-1.jpg
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/soft-reflection.jpg
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/container-ui.png
-      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/CursorHandler.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/ForceContainerParent.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/FrameInputHandler.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/HoverBehavior.ts
-      - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/LabeledPinchButton.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SimpleLODRenderMeshVisual
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SimpleLODRenderMeshVisual/SimpleLODRenderMeshVisual.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SmoothFollow.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SnappableBehavior.ts
-      - SpectaclesInteractionKit/Components/UI/PinchButton
-      - SpectaclesInteractionKit/Components/UI/PinchButton/PinchButton.ts
       - SpectaclesInteractionKit/Components/UI/ScrollBar
       - SpectaclesInteractionKit/Components/UI/ScrollBar/ScrollBar.ts
       - SpectaclesInteractionKit/Components/UI/ScrollView
@@ -255,6 +266,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Declarations/requireAssetDeclaration.d.ts
       - SpectaclesInteractionKit/Decorators
       - SpectaclesInteractionKit/Decorators/Singleton.ts
+      - SpectaclesInteractionKit/Prefabs
       - SpectaclesInteractionKit/Prefabs/ScrollViewListItem.prefab
       - SpectaclesInteractionKit/Prefabs/SpectaclesInteractionKit.prefab
       - SpectaclesInteractionKit/Providers
@@ -339,4 +351,33 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
+      - StartButton.ts
+      - Surface Detection.lspkg
+      - Surface Detection.lspkg/Audio
+      - Surface Detection.lspkg/Audio/CalibrationComplete.mp3
+      - "Surface Detection.lspkg/Example [DELETE ME]"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Example Script [EDIT].ts"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Materials"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Materials/Uber PBR.mat"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Meshes"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Meshes/Box.mesh"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Shaders"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Shaders/uber_pbr.ss_graph"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Textures"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Textures/Base.png"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Textures/Normal.png"
+      - Surface Detection.lspkg/Materials
+      - Surface Detection.lspkg/Materials/CalibrationMat.mat
+      - Surface Detection.lspkg/Meshes
+      - Surface Detection.lspkg/Meshes/Unit Plane.mesh
+      - Surface Detection.lspkg/Scripts
+      - Surface Detection.lspkg/Scripts/CircleAnimation.ts
+      - Surface Detection.lspkg/Scripts/SurfaceDetection.ts
+      - Surface Detection.lspkg/Shaders
+      - Surface Detection.lspkg/Shaders/CalibrationShader.ss_graph
+      - Surface Detection.lspkg/SurfaceDetection__ADD_TO_SCENE.prefab
+      - Surface Detection.lspkg/Textures
+      - Surface Detection.lspkg/Textures/groundIcon.png
+      - Surface Detection.lspkg/package.native
+      - pbr.ss_graph
   options: 4
