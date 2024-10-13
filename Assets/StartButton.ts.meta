@@ -28,6 +28,7 @@
     myLeftHand: false
     myRightHand: false
     myText: false
+    waterBar: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
@@ -35,6 +36,7 @@
       myCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
       myLeftHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       myRightHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      waterBar: !<reference.Material> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -43,3 +45,4 @@
     - // @input Component.Camera myCamera
     - // @input SceneObject myLeftHand
     - // @input SceneObject myRightHand
+    - // @input Slider waterBar
