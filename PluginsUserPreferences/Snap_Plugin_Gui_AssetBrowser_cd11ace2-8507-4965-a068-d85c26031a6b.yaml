@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 377
+    size: 375
     values:
       - Base.png
       - Capsule.mesh
@@ -44,7 +44,6 @@ CollapsedEntities:
       - PBR.mat
       - Render Target.renderTarget
       - Scene.scene
-      - SpectaclesInteractionKit
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerEndAudioTrack.wav
@@ -62,7 +61,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Materials/ScrollBarButton.mat
       - SpectaclesInteractionKit/Assets/Materials/ScrollBarSlider.mat
       - SpectaclesInteractionKit/Assets/Materials/SimplePBRMaterial.mat
-      - SpectaclesInteractionKit/Assets/Materials/SliderMat/SliderMat.mat
       - SpectaclesInteractionKit/Assets/Materials/SliderMat/TargetOutlineMaterial.mat
       - SpectaclesInteractionKit/Assets/Materials/SpritePreset.mat
       - SpectaclesInteractionKit/Assets/Materials/TargetOutlineMaterial.mat

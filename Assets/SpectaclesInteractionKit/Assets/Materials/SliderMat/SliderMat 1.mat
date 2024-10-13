@@ -27,7 +27,7 @@
   Properties:
     Level:
       typeIdx: 1
-      value: 0.580000
+      value: 0.470000
     Port_AO_N036:
       typeIdx: 4
       value: {x: 1.000000, y: 0.999969, z: 0.999985}
@@ -84,10 +84,10 @@
       value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     innerColor1:
       typeIdx: 5
-      value: {x: 0.213031, y: 0.763577, z: 0.996979, w: 1.000000}
+      value: {x: 0.041032, y: 0.919432, z: 0.979080, w: 1.000000}
     innerColor2:
       typeIdx: 5
-      value: {x: 0.000000, y: 0.306233, z: 0.962707, w: 1.000000}
+      value: {x: 0.000000, y: 0.139300, z: 0.735424, w: 1.000000}
     innerColorMultiplier:
       typeIdx: 1
       value: 0.750000
