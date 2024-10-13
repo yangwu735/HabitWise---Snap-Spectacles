@@ -24,11 +24,27 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    barText: false
+    clickedBarSound: false
+    intro: false
     myCamera: false
     myLeftHand: false
     myRightHand: false
     myText: false
+    post1: false
+    post2: false
+    post3: false
+    post4: false
+    post5: false
+    pre1: false
+    pre2: false
+    pre3: false
+    pre4: false
+    pre5: false
+    speaker: false
+    title: false
     waterBar: false
+    welcome: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
@@ -37,6 +53,22 @@
       myLeftHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       myRightHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       waterBar: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      speaker: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      title: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      intro: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      welcome: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      pre1: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      pre2: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      pre3: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      post1: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      post2: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      clickedBarSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      pre4: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      pre5: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      post3: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      post4: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      post5: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      barText: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -46,3 +78,19 @@
     - // @input SceneObject myLeftHand
     - // @input SceneObject myRightHand
     - // @input Slider waterBar
+    - // @input SceneObject title
+    - // @input Component.AudioComponent speaker
+    - // @input Asset.AudioTrackAsset welcome
+    - // @input Asset.AudioTrackAsset intro
+    - // @input Asset.AudioTrackAsset pre1
+    - // @input Asset.AudioTrackAsset pre2
+    - // @input Asset.AudioTrackAsset pre3
+    - // @input Asset.AudioTrackAsset pre4
+    - // @input Asset.AudioTrackAsset pre5
+    - // @input Asset.AudioTrackAsset post1
+    - // @input Asset.AudioTrackAsset post2
+    - // @input Asset.AudioTrackAsset post3
+    - // @input Asset.AudioTrackAsset post4
+    - // @input Asset.AudioTrackAsset post5
+    - // @input Asset.AudioTrackAsset clickedBarSound
+    - // @input Component.Text barText

@@ -20,15 +20,15 @@ metaInfo:
     []
   tags:
     []
-  lensName: Specs Starter
+  lensName: HabitWise Draft
   lensDescriptors:
-    []
+    - GEN_AI_ICON
   lensApplicability:
     - Front
     - Back
   lensClientCompatibilities:
     - Spectacles
-  iconHash: ""
+  iconHash: 079d885d28e4e5a48fa0afc5b381b8cf
   videoPreviewHash: ""
   fromTemplateName: Spectacles
   fromTemplateUrl: Lens Studio 5.1.1.24092500

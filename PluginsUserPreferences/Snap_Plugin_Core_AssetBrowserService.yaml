@@ -1,5 +1,14 @@
 ExternalSources:
   type: "std::map<Es::Uuid, Es::Path>"
   value:
-    []
+    - 5d4bfcd5-dcc9-4d70-abec-692aecc9ff5a: /Users/yang/Documents/HabitWise - Snap Spectacles/Audio/post_isnt_w_great.mp3
+    - 62b585f4-a72d-4f91-8b79-fff222ed1a04: /Users/yang/Documents/HabitWise - Snap Spectacles/Audio/post_nice_work.mp3
+    - 77f718c7-e04d-4023-8874-5b64499a2a89: /Users/yang/Documents/HabitWise - Snap Spectacles/Audio/post_nice.mp3
+    - 7acc82af-c67d-4c36-9fbd-377f9cad2faf: /Users/yang/Documents/HabitWise - Snap Spectacles/Typographica-Blp5.ttf
+    - 8e8856a1-d6fd-4cab-ab91-6a2e3beb820a: /Users/yang/Documents/HabitWise - Snap Spectacles/Audio/pre_time_to_get_water.mp3
+    - a95dc9b3-10db-4fe5-a445-5322adc06e30: /Users/yang/Documents/HabitWise - Snap Spectacles/VerminaRegular-R9nye.ttf
+    - c41bc6e4-8ed9-455a-af12-74e4c80ca1ec: /Users/yang/Documents/HabitWise - Snap Spectacles/Audio/post_good_job.mp3
+    - da709977-4196-4d79-b645-4cd2a3e3183d: /Users/yang/Documents/HabitWise - Snap Spectacles/Audio/pre_more_h2o.mp3
+    - e0dcbe06-1085-434f-a5c4-ad1189e55b28: /Users/yang/Documents/HabitWise - Snap Spectacles/Audio/Intro.mp3
+    - e3867df2-cf9e-49b0-8e08-4c1468514027: /Users/yang/Documents/HabitWise - Snap Spectacles/Audio/post_one_glass.mp3
   options: 4
