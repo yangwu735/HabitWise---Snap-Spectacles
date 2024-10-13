@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/8d029dc1-1d12-4a5d-964e-7780d7d5876f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 02485ca5-3d3f-4494-8049-704c6e00f9ad
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 02485ca5-3d3f-4494-8049-704c6e00f9ad
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> f80d3030-4962-4885-86a8-6d9002903f5d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/1b0858d1-46e9-4e9f-88fc-c27a9fca32ad>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f80d3030-4962-4885-86a8-6d9002903f5d>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    myCamera: false
+    myLeftHand: false
+    myRightHand: false
+    myText: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - myText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      myCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      myLeftHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      myRightHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Text myText
+    - // @input Component.Camera myCamera
+    - // @input SceneObject myLeftHand
+    - // @input SceneObject myRightHand
